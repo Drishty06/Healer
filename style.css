@@ -1,0 +1,524 @@
+body{
+    margin: 0%;
+    background: linear-gradient(to left, #2471ff, #d655d8, #ff4e98, #ff7a5b, #ffaf33, #ffb928, #ffc31a, #ffce00, #ffaa00, #ff8413, #fc5d29, #ee2e39);    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* CSS used more than one time through out the page */
+.healer{
+    font-family: 'Cookie', cursive !important;
+    text-transform: capitalize !important;
+    letter-spacing: 1px;
+}
+.box{
+    height: 80%;
+    width: 85%;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.animation{
+    background: linear-gradient(to left, #2471ff, #d655d8, #ff4e98, #ff7a5b, #ffaf33, #ffb928, #ffc31a, #ffce00, #ffaa00, #ff8413, #fc5d29, #ee2e39);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shining 2.5s linear infinite;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+/* KeyFream for animation */ 
+@keyframes shining{
+    0%{
+        -webkit-text-fill-color: rgba(0, 0, 0, 0.349);
+        text-fill-color: rgba(0, 0, 0, 0.349);
+        background-position: -500%;
+    }
+    100%{
+        -webkit-text-fill-color: rgba(0, 0, 0, 0.349);
+        text-fill-color: rgba(0, 0, 0, 0.349);
+        background-position: 500%;
+    }
+}
+.outer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    top: 10vh;
+}
+.sp1{
+    background-color: #2471FF;
+    border-radius: 10px;
+}
+.sp2{
+    background-color: #FFFF00;
+    border-radius: 10px;
+}
+.sp3{
+    background-color: #ee2e39;
+    border-radius: 10px;
+}
+.sp1, .sp2, .sp3{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    padding: 0px 5px;
+}
+/* For Navigation Bar */
+.navigation{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    top: 0px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgba(107, 107, 107, 0.13);
+    z-index: 1;
+}
+.navigationIteams{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.iteam{
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+.underLine{
+    width: 0%;
+    height: 3px;
+    background-color: white;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+/* For Hoering Effect on nevation iteams */
+.iteam a:hover + .underLine{
+    width: 100%;
+    height: 3px;
+}
+.logo{
+    display: flex;
+    height: 9vh;
+    width: 9vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #00f;
+    margin-left: 2%;
+}
+.navigation a{
+    transition: color 0.3s linear;
+}
+.navigation a:hover{
+    color: white;
+}
+.logo a{
+    color: white;
+}
+.logo a:hover{
+    color: #000000;
+}
+/* For Home Page */
+.homeBox{
+    height: 90%;
+    width: 85%;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homeText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding-left: 30px;
+}
+.homeBox h1{
+    position: relative;
+    top: 0%;
+    right: 0%;
+    margin: 0%;
+    font-size: 8rem;
+    z-index: 1;
+}
+.yourCompanion{
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-weight:800;
+    margin: 0;
+    bottom: 1rem;
+}
+.stress{
+    position: relative;
+    text-transform: capitalize;
+    margin: 0%;
+}
+.stress .healer{
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+.homeBox img{
+    height: 100%;
+    width: 50%;
+}
+
+/* For Meditation Page */
+.meditationBox img{
+    height: 90%;
+    width: 40%;
+}
+.meditationText h1{
+    position: relative;
+    top: 5%;;
+    left: 5%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+}
+.meditationText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding-right: 30px;
+}
+.quote{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.quote img{
+    align-self: center;
+    height: 20%;
+    width: 5%;
+    position: relative;
+    top: 15%;
+}
+.quote :nth-child(2){
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+.swami{
+    font-family: 'Playfair Display', serif;
+    align-self: center;
+    position: relative;
+    bottom: 8%;
+    left: 15%;
+}
+.meditationMainText{
+    position: relative;
+    width: 90%;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    bottom: 15%;
+    left: 5%;
+}
+.meditationMainText span{
+    font-weight: 600;
+}
+
+/* For Work Out Page */
+.workOutText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 60%;
+    padding-left: 30px;
+}
+.workOutText h1{
+    position: relative;
+    left: 5%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+}
+.workOutBox img{
+    height: 100%;
+    width: 50%;
+}
+.workOutQuote{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.workOutQuote img{
+    align-self: center;
+    height: 20%;
+    width: 5%;
+}
+.workOutQuote :nth-child(2){
+    position: relative;
+    bottom: 17%;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+.workOutQuoteAuthor{
+    align-self: flex-start;
+    position: relative;
+    bottom: 10%;
+    left:10%;
+    font-family: 'Playfair Display', serif;
+}
+.workOutMainText{
+    position: relative;
+    bottom: 10%;
+    left: 5%;
+    font-weight: 900;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+
+/* For Moodify Page */
+.moodifyBox img{
+    height: 80%;
+    width: 35%;
+    padding-left: 30px;
+}
+.moodifyText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 60%;
+    padding-right: 30px;
+}
+.moodifyText h1{
+    position: relative;
+    left: 10%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    margin: 0;
+}
+.moodifyQuote{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.moodifyQuote img{
+    align-self: center;
+    height: 20%;
+    width: 5%;
+}
+.moodifyQuote :nth-child(2){
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-left: 10%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.moodifyQuoteAuthor{
+    align-self: flex-end;
+    position: relative;
+    right: 10%;
+    font-family: 'Playfair Display', serif;
+    margin: 8px 0;
+}
+.moodifyText h3{
+    position: relative;
+    bottom: 5%;
+    left: 10%;
+    font-family: 'Playfair Display', serif;
+}
+.moodifyMainText{
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+/* Extra Activities */
+.extraBox{
+    width: 85%;
+    height: 80%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.extraBox h1{
+    position: relative;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    margin: 0;
+}
+.flashCards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    height: 90%;
+    width: 90%;
+}
+.cards{
+    height: 25%;
+    width: 30%;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: background-position 1s;
+}
+.card1, .card5, .card9{
+    background: linear-gradient(to right, #2471FF 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+}
+.card3, .card4, .card8{
+    background: linear-gradient(to right, #FFFF00 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+}
+.card2, .card6, .card7{
+    background: linear-gradient(to right, #ee2e39 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+}
+.extraImg{
+    height: 80%;
+    width: 30%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.cardText{
+    width: 60%;
+    font-family: 'Playfair Display', serif;
+}
+.cards:hover{
+    background-position: right bottom;
+    box-shadow: 0 0 5px grey;
+}
+
+/* Our Team */
+.ourTeam{
+    font-family: 'Bebas Neue', cursive;
+}
+.teamBox{
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 95%;
+    width: 85%;
+    font-family: 'Playfair Display', serif;
+}
+.teamBox h1{
+    margin: 10px;
+}
+.members{
+    display: flex;
+    justify-content: space-evenly;
+    height: 80%;
+    width: 90%;
+}
+/* gradient animated border */
+.glowingBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 95%;
+    width: 21%;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000);
+    background-size: 400%;
+    animation: glow 4s linear infinite;
+    border: 2px solid black;
+    box-shadow: 5px 8px 5px rgb(109, 109, 109);
+}
+@keyframes glow {
+    0%{
+        background-position: -100%;
+    }
+	100% {
+        background-position: 100%;
+	}
+}
+.member{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    height: 98%;
+    width: 96%;
+    border-radius: 20px;
+}
+.memberImg{
+    border-radius: 50%;
+    border: solid white;
+    height: 50%;
+    width: 75%;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.memberDetail{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.social img{
+    position: relative;
+    transition: bottom 1s;
+}
+.social img:hover{
+    bottom: 5px;
+}
+.feedback{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.btn {
+    border-radius: 15px;
+    height: 40%;
+    width: 15%;
+    box-shadow: 4px 4px 10px #666666;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+    font-size: 22px;
+    background: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}  
+.btn:hover {
+    background: #ffffff;
+    color: black;
+    text-decoration: none;
+}
+.madeWith{
+    margin-top: 0%;
+}
+/* For the various button of Explore Me */
+.explore{
+    align-self: flex-end;
+}
+.explore button{
+    position: relative;
+    bottom: 20%;
+    height: 70%;
+    width: 17%;
+    margin-left: 5%;
+}
