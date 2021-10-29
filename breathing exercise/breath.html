@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="breath.css">
+     <!-- Bebas Neue Font css : font-family: 'Bebas Neue', cursive; -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+ 
+     <!-- cookie font css : font-family: 'Cookie', cursive;-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&display=swap" rel="stylesheet">
+     
+     <!-- font-family: 'Poppins', sans-serif; -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+     <link rel="icon" href="backgrounds/favicon/favicon.ico">
+
+    <title>Breathing Exercise interface</title>
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li><span class="healer">Healer </span></li>
+            <li> -> <a href="">Meditation </a></li>
+            <li> -> Breathing Exercise</li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="box">
+            <!-- first box -->
+            <div class="first">
+                <div class="container">
+                    <div class="circle ">
+                        <p id="text">INHALE</p>
+                    </div>
+                </div>
+            </div>
+            <!-- second box -->
+            <div class="second" >
+                <button class="btn" id="btn1" onclick="animateCircle()">START</button>
+            </div>
+            <!-- third box -->
+            <div class="third">
+                <p>TRACKS</p>
+                <div class="button">
+                    <button class="btn" id="track1" onclick="forest()">FOREST</button>
+                    <button class="btn" id="track2" onclick="ocean()">OCEAN</button>
+                    <button class="btn" id="track3" onclick="rain()">RAIN</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="breath.js"></script>
+</body>
+
+</html>
