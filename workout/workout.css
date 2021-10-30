@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff2ea;
+  height: 100vh;
+}
+
+.healer {
+  font-family: "Cookie", cursive !important;
+  text-transform: capitalize !important;
+  letter-spacing: 1px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+}
+
+.navigation ul {
+  display: flex;
+}
+.navigation ul li {
+  list-style: none;
+  padding: 4px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.meditation {
+  font-size: 1.8rem;
+}
+
+.cards {
+  display: flex;
+  height: 90%;
+  justify-content: space-evenly;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  height: 100%;
+  width: 20%;
+  margin: 0%;
+  background-color: white;
+}
+.block {
+  height: 10%;
+  width: 100%;
+}
+
+/* for fliping card */
+/* start */
+.flip1 {
+  display: none;
+  margin: 2%;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  height: 90%;
+  width: 90%;
+  text-align: left;
+}
+.hide1 {
+  display: none;
+}
+.afterFlip1 {
+  display: block;
+}
+.flip2 {
+  display: none;
+  margin: 2%;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  height: 90%;
+  width: 90%;
+  text-align: left;
+}
+.hide2 {
+  display: none;
+}
+.afterFlip2 {
+  display: block;
+}
+.flip3 {
+  display: none;
+  margin: 2%;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  height: 90%;
+  width: 90%;
+  text-align: left;
+}
+.hide3 {
+  display: none;
+}
+.afterFlip3 {
+  display: block;
+}
+.flip4 {
+  display: none;
+  margin: 2%;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  height: 90%;
+  width: 90%;
+  text-align: left;
+}
+.hide4 {
+  display: none;
+}
+.afterFlip4 {
+  display: block;
+}
+
+/* end */
+
+#card-1 img {
+  border: 2px solid black;
+  height: 100%;
+  width: 80%;
+  border-radius: 50%;
+  transform: rotate(90deg);
+  background-color: white;
+}
+#card-1 {
+  border-style: solid;
+  border-color: black;
+  color: black;
+  background-size: 200% 200%;
+  background-image: linear-gradient(to top, #2471ff 50%, transparent 50%);
+  transition: background-position 300ms, color 300ms ease,
+    border-color 300ms ease;
+}
+#card-1:hover {
+  color: rgb(15, 15, 15);
+  border-color: #2471ff;
+  background-image: linear-gradient(to top, #2471ff 51%, transparent 50%);
+  background-position: 0 100%;
+  transition: background-position 300ms, color 300ms ease,
+    border-color 300ms ease;
+}
+#btn1 {
+  background-color: #2471ff;
+}
+#b1 {
+  background-color: #2471ff;
+}
+.cardH {
+  text-align: center;
+  display: block;
+}
+
+.Text {
+  margin: 2%;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  height: 90%;
+  width: 90%;
+  text-align: center;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  height: 10%;
+  width: 50%;
+  margin-bottom: 5%;
+  border-radius: 12px;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+
+#card-2 img {
+  border: 2px solid black;
+  height: 39%;
+  width: 85%;
+  border-radius: 50%;
+  background-color: white;
+}
+
+#card-2 {
+  border-style: solid;
+  border-color: black;
+  color: black;
+  background-size: 200% 200%;
+  background-image: linear-gradient(to top, #ffff00 50%, transparent 50%);
+  transition: background-position 300ms, color 300ms ease,
+    border-color 300ms ease;
+}
+
+#card-2:hover {
+  color: rgb(15, 15, 15);
+  border-color: #ffff00;
+  background-image: linear-gradient(to top, #ffff00 51%, transparent 50%);
+  background-position: 0 100%;
+  transition: background-position 300ms, color 300ms ease,
+    border-color 300ms ease;
+}
+#btn2 {
+  background-color: #ffff00;
+}
+#b2 {
+  background-color: #ffff00;
+}
+#card-3 img {
+  border: 2px solid black;
+  height: 39%;
+  width: 85%;
+  border-radius: 50%;
+  background-color: white;
+}
+#card-3 {
+  border-style: solid;
+  border-color: black;
+  color: black;
+  background-size: 200% 200%;
+  background-image: linear-gradient(to top, #ee2e39 50%, transparent 50%);
+  transition: background-position 300ms, color 300ms ease,
+    border-color 300ms ease;
+}
+#card-3:hover {
+  color: rgb(15, 15, 15);
+  border-color: #ee2e39;
+  background-image: linear-gradient(to top, #ee2e39 51%, transparent 50%);
+  background-position: 0 100%;
+  transition: background-position 300ms, color 300ms ease,
+    border-color 300ms ease;
+}
+#b3 {
+  background-color: #ee2e39;
+}
+#btn3 {
+  background-color: #ee2e39;
+}
+#card-4 img {
+  border: 2px solid black;
+  height: 39%;
+  width: 85%;
+  border-radius: 50%;
+}
+
+#card-4 {
+  border-style: solid;
+  border-color: black;
+  color: black;
+  background-size: 200% 200%;
+  background-image: linear-gradient(to top, #1af112 50%, transparent 50%);
+  transition: background-position 300ms, color 300ms ease,
+    border-color 300ms ease;
+}
+#card-4:hover {
+  color: rgb(15, 15, 15);
+  border-color: #1af112;
+  background-image: linear-gradient(to top, #1af112 51%, transparent 50%);
+  background-position: 0 100%;
+  transition: background-position 300ms, color 300ms ease,
+    border-color 300ms ease;
+}
+
+#b4 {
+  background-color: #1af112;
+}
+
+#btn4 {
+  background-color: #1af112;
+  text-decoration: none;
+}
+#btn4 a {
+  text-decoration: none;
+}
