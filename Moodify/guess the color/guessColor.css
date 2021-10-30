@@ -4,7 +4,7 @@ body{
     height: 100vh;
     width: 100%;
 }
-healer {
+.healer {
     font-family: "Cookie", cursive !important;
     text-transform: capitalize !important;
     letter-spacing: 1px;
