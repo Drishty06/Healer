@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Color</title>
+    <link rel="stylesheet" href="guessColor.css">
+    <link rel="icon" href="../images/favicon.ico">
+</head>
+
+<body onload="generateNewColor()">
+    <div class="navigation">
+        <ul>
+            <li><a href="../../index.html"> <span class="healer">Healer </span></a></li>
+            <li> -> <a href="../Moodify.html">Moodify</a></li>
+            <li> -> Guess The Color </li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="text">
+            <h1>Guess The Color</h1>
+            <h2 class="color">RGB(255, 255 ,255)</h2>
+        </div>
+        <div class="box">
+            <div class="option1 option"></div>
+            <div class="option2 option"></div>
+            <div class="option3 option"></div>
+            <div class="option4 option"></div>
+            <div class="option5 option"></div>
+            <div class="option6 option"></div>
+        </div>
+        <div class="buttons">
+            <button id="newColor">Get New Color</button>
+            <div class="level">
+                <button>Easy</button>
+                <button>Hard</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="guessColor.js"></script>
+</body>
+
+</html>
