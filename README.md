@@ -1,4 +1,4 @@
-# Healer 🧑🏻‍⚕️
+# Healer
 ## Your companion in your journey to Well-being 🤝🏻
 ## [Demo video](url): 
 ## [Website](https://drishty06.github.io/Healer/index.html): 
