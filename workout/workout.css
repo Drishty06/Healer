@@ -4,7 +4,10 @@ body {
   background-color: #fff2ea;
   height: 100vh;
 }
-
+.btn a{
+  text-decoration: none;
+  color: black;
+}
 .healer {
   font-family: "Cookie", cursive !important;
   text-transform: capitalize !important;
@@ -176,8 +179,10 @@ body {
   margin-bottom: 5%;
   border-radius: 12px;
 }
-.btn:hover {
-  opacity: 0.9;
+#btn1:hover {
+  background-color: white;
+  cursor: pointer;
+  color: #000000;
 }
 
 #card-2 img {
@@ -195,7 +200,7 @@ body {
   background-size: 200% 200%;
   background-image: linear-gradient(to top, #ffff00 50%, transparent 50%);
   transition: background-position 300ms, color 300ms ease,
-    border-color 300ms ease;
+  border-color 300ms ease;
 }
 
 #card-2:hover {
@@ -204,10 +209,15 @@ body {
   background-image: linear-gradient(to top, #ffff00 51%, transparent 50%);
   background-position: 0 100%;
   transition: background-position 300ms, color 300ms ease,
-    border-color 300ms ease;
+  border-color 300ms ease;
 }
 #btn2 {
   background-color: #ffff00;
+}
+#btn2:hover {
+  background-color: white;
+  cursor: pointer;
+  color: #000000;
 }
 #b2 {
   background-color: #ffff00;
@@ -227,7 +237,7 @@ body {
   background-image: linear-gradient(to top, #ee2e39 50%, transparent 50%);
   transition: background-position 300ms, color 300ms ease,
     border-color 300ms ease;
-}
+  }
 #card-3:hover {
   color: rgb(15, 15, 15);
   border-color: #ee2e39;
@@ -235,12 +245,17 @@ body {
   background-position: 0 100%;
   transition: background-position 300ms, color 300ms ease,
     border-color 300ms ease;
-}
+  }
 #b3 {
   background-color: #ee2e39;
 }
 #btn3 {
   background-color: #ee2e39;
+}
+#btn3:hover {
+  background-color: white;
+  cursor: pointer;
+  color: #000000;
 }
 #card-4 img {
   border: 2px solid black;
