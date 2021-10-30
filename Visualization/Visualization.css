@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff2ea;
+    height: 100vh;
+  }
+  
+  .healer {
+    font-family: "Cookie", cursive !important;
+    text-transform: capitalize !important;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    margin-right: 1%;
+  }
+  
+  .navbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    top: 0px;
+    font-family: "Bebas Neue", cursive;
+    background-color: black;
+    color: white;
+    z-index: 1;
+  }
+  .meditation {
+    font-size: 1.8rem;
+    margin-right: 9px;
+  }
+
+  .visualization
+  {
+    font-size: 1.8rem; 
+  }
+
+  .navItem
+  {
+      display: flex;
+      justify-content: center;
+  }
+
+.top
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.img
+{
+    margin-top: 5%;
+    height: 20%;
+    width: 20%;
+    background-color: #FFF2EA;
+}
+
+.V-img
+{
+    height: 250%;
+    width: 210%; 
+    background-color: #FFF2EA;
+}
+
+p
+{
+    display: flex;
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+}
+.text
+{
+    margin-top: 5%;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    height: 50%;
+    width: 50%;
+    margin-right: 5%;
+}
+
+.heading
+{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    margin-top: 2%;
+}
+
+.mainbox
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mainbox p
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+}
+
+.mainbox input
+{
+    margin-top: 1%;
+    height: 8%;
+    width: 25%;
+    padding: 0.5%;
+}
+.box
+{
+    margin-top: 1%;
+    width:78%;
+    height: 30%;
+    padding: 1.5%; 
+}
+
+.box1,.box4,.box7
+{
+  background-color:#EE2E39;
+}
+
+.box2,.box5,.box8
+{
+     background-color: #2471FF;
+}
+
+.box3,.box6,.box9
+{
+    background-color: #FFFF00;
+}
+
+.btn
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+button
+{
+    height: 3%;
+    width: 15%;
+    background-color:#EE2E39;
+    border-radius:10px;
+    padding: 0.5%;
+    margin: 2% 2%;
+    border:10% solid white;
+
+}
+
+
