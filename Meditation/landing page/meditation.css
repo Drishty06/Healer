@@ -9,21 +9,29 @@ body {
   font-family: "Cookie", cursive !important;
   text-transform: capitalize !important;
   letter-spacing: 1px;
-  font-size: 1.5rem;
-  margin-right: 1%;
 }
-
-.navbar {
-  position: fixed;
+.navigation {
   display: flex;
   align-items: center;
   height: 10%;
   width: 100%;
-  top: 0px;
-  font-family: "Bebas Neue", cursive;
   background-color: black;
   color: white;
-  z-index: 1;
+  margin: 0;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+}
+.navigation ul {
+  display: flex;
+}
+.navigation ul li {
+  list-style: none;
+  padding: 4px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
 }
 .meditation {
   font-size: 1.8rem;
@@ -33,8 +41,6 @@ body {
   display: flex;
   height: 90%;
   justify-content: space-evenly;
-  position: relative;
-  top: 10%;
 }
 .card {
   display: flex;
@@ -168,8 +174,10 @@ body {
   margin-bottom: 5%;
   border-radius: 12px;
 }
-.btn:hover {
-  opacity: 0.9;
+#btn1:hover {
+  background-color: white;
+  cursor: pointer;
+  color: #000000;
 }
 
 #card-2 img {
@@ -187,7 +195,7 @@ body {
   background-size: 200% 200%;
   background-image: linear-gradient(to top, #ffff00 50%, transparent 50%);
   transition: background-position 300ms, color 300ms ease,
-    border-color 300ms ease;
+  border-color 300ms ease;
 }
 
 #card-2:hover {
@@ -199,6 +207,11 @@ body {
 }
 #btn2 {
   background-color: #ffff00;
+}
+#btn2:hover {
+  background-color: white;
+  cursor: pointer;
+  color: #000000;
 }
 #b2 {
   background-color: #ffff00;
@@ -217,7 +230,7 @@ body {
   background-size: 200% 200%;
   background-image: linear-gradient(to top, #ee2e39 50%, transparent 50%);
   transition: background-position 300ms, color 300ms ease,
-    border-color 300ms ease;
+  border-color 300ms ease;
 }
 #card-3:hover {
   color: rgb(15, 15, 15);
@@ -225,13 +238,18 @@ body {
   background-image: linear-gradient(to top, #ee2e39 51%, transparent 50%);
   background-position: 0 100%;
   transition: background-position 300ms, color 300ms ease,
-    border-color 300ms ease;
+  border-color 300ms ease;
 }
 #b3 {
   background-color: #ee2e39;
 }
 #btn3 {
   background-color: #ee2e39;
+}
+#btn3:hover {
+  background-color: white;
+  cursor: pointer;
+  color: #000000;
 }
 #card-4 img {
   border: 2px solid black;
@@ -247,7 +265,7 @@ body {
   background-size: 200% 200%;
   background-image: linear-gradient(to top, #1af112 50%, transparent 50%);
   transition: background-position 300ms, color 300ms ease,
-    border-color 300ms ease;
+  border-color 300ms ease;
 }
 #card-4:hover {
   color: rgb(15, 15, 15);
@@ -255,7 +273,7 @@ body {
   background-image: linear-gradient(to top, #1af112 51%, transparent 50%);
   background-position: 0 100%;
   transition: background-position 300ms, color 300ms ease,
-    border-color 300ms ease;
+  border-color 300ms ease;
 }
 
 #b4 {
@@ -265,7 +283,14 @@ body {
 #btn4 {
   background-color: #1af112;
 }
+#btn4:hover {
+  background-color: white;
+  cursor: pointer;
+  color: #000000;
+}
 #btn4 a{
   color: black;
   text-decoration: none;
 }
+
+
