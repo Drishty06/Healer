@@ -1,0 +1,107 @@
+body {
+  background-color: #18191a;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.healer {
+  font-family: "Cookie", cursive !important;
+  text-transform: capitalize !important;
+  letter-spacing: 1px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+}
+
+.navigation ul {
+  display: flex;
+}
+.navigation ul li {
+  list-style: none;
+  padding: 4px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+canvas {
+  touch-action: none;
+  background-color: #fff2ea;
+  border-radius: 50px;
+}
+
+button {
+  font-size: 110%;
+}
+
+.option {
+  background-color: #fff2ea;
+  width: 25%;
+  height: 15%;
+  margin-left: 4%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+}
+.clear {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #212529;
+  color: #212529;
+}
+.clear:hover {
+  color: #fff;
+}
+.clear:hover:after {
+  width: 100%;
+}
+.clear:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #212529;
+}
+
+input[type="color"] {
+  height: 40px;
+  width: 70px;
+}
