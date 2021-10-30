@@ -30,6 +30,7 @@ body {
 .navigation ul {
   display: flex;
 }
+
 .navigation ul li {
   list-style: none;
   padding: 4px;
@@ -49,6 +50,7 @@ body {
   height: 90%;
   justify-content: space-evenly;
 }
+
 .card {
   display: flex;
   flex-direction: column;
@@ -59,6 +61,7 @@ body {
   margin: 0%;
   background-color: white;
 }
+
 .block {
   height: 10%;
   width: 100%;
@@ -71,6 +74,7 @@ body {
   border-radius: 50%;
   background-color: white;
 }
+
 #card-1 {
   border-style: solid;
   border-color: black;
@@ -80,6 +84,7 @@ body {
   transition: background-position 300ms, color 300ms ease,
     border-color 300ms ease;
 }
+
 #card-1:hover {
   color: rgb(15, 15, 15);
   border-color: #2471ff;
@@ -88,17 +93,21 @@ body {
   transition: background-position 300ms, color 300ms ease,
     border-color 300ms ease;
 }
+
 #btn1 {
   background-color: #2471ff;
 }
+
 #btn1:hover{
   background-color: white;
   color: black;
   cursor: pointer;
 }
+
 #b1 {
   background-color: #2471ff;
 }
+
 .cardH {
   text-align: center;
   display: block;
@@ -120,6 +129,7 @@ body {
   margin-bottom: 5%;
   border-radius: 12px;
 }
+
 #card-2 img {
   border: 2px solid black;
   height: 33%;
@@ -146,17 +156,21 @@ body {
   transition: background-position 300ms, color 300ms ease,
   border-color 300ms ease;
 }
+
 #btn2 {
   background-color: #ffff00;
 }
+
 #btn2:hover{
   background-color: white;
   color: black;
   cursor: pointer;
 }
+
 #b2 {
   background-color: #ffff00;
 }
+
 #card-3 img {
   border: 2px solid black;
   height: 76%;
@@ -164,6 +178,7 @@ body {
   border-radius: 50%;
   background-color: white;
 }
+
 #card-3 {
   border-style: solid;
   border-color: black;
@@ -173,6 +188,7 @@ body {
   transition: background-position 300ms, color 300ms ease,
     border-color 300ms ease;
   }
+
   #card-3:hover {
     color: rgb(15, 15, 15);
   border-color: #ee2e39;
@@ -181,12 +197,15 @@ body {
   transition: background-position 300ms, color 300ms ease,
   border-color 300ms ease;
 }
+
 #b3 {
   background-color: #ee2e39;
 }
+
 #btn3 {
   background-color: #ee2e39;
 }
+
 #btn3:hover{
   background-color: white;
   color: black;

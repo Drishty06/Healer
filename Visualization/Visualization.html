@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visualization</title>
+    <link rel="stylesheet" href="Visualization.css">
+    
+    <!-- cookie font css : font-family: 'Cookie', cursive;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&display=swap"
+      rel="stylesheet"/>
+    
+    <!-- Anton css : font-family: 'Anton', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"/>
+    
+    <!-- Bebas Neue Font css : font-family: 'Bebas Neue', cursive; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;613&family=Poppins:wght@500&family=Roboto+Mono:wght@200&display=swap"
+      rel="stylesheet"/>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
+      <script src="Visualization.js"></script>
+
+  </head>
+  <body>
+    
+    <header>
+        <nav class="navbar">
+          <div class="healer"><a href="../../index.html"><span class="healer">Healer</span></a></div>
+          <div class="navItem">
+            <div class="meditation">-> meditation</div>
+            <div class="visualization">-> Negative Visualization and gratitude exercise</div>
+          </div>
+        </nav>
+      </header>
+
+       <div class="top">
+           <div class="img">
+                 <img src="images/Negative-visualization.jpg" alt="" class="V-img">
+           </div>
+           <div class="text">
+                <p>Negative visualization is a thought exercise. We imagine bad things to happen so that we’ll be better prepared for them when they actually occur. imagined and real ‘misfortunes’ are not actually negative.Only the reactions to them can be good or bad. This is the reason why they want to prepare so well, so that they’ll be able to respond smartly. You will appreciate the things you have much more when regularly imagining bad things to happen. staying calm and grateful in the midst of chaos is visualizing bad events before they happen. By thinking of the worst possible situations ahead of time, you train yourself to be more grateful for where you are in the present, but also numb yourself to the shock of it actually happening.</p>
+           </div>
+       </div>
+
+       <div class="heading" id="detail">
+           <p> 🙈we are not seeing your data, its just your place and u can write your heart out</p>
+       </div>
+
+       <div class="mainbox" id="detail">
+         
+           <div class="box1 box">
+               <p>1.Do you have any events coming up? Exam, vacation, work presentation, marriage, etc. Ask yourself and imagine: what could go wrong?</p>
+               <input type="text" name="" placeholder="Enter Your Answer" id="">
+           </div>
+
+           <div class="box2 box">
+            <p>2.Think about your loved ones. What if they’d suddenly be gone? How would you feel? What would you do? How would you react?</p>
+            <input type="text" name="" placeholder="Enter Your Answer" id="">
+           </div>
+
+           <div class="box3 box">
+            <p>3.What about your possessions? What if they were gone? What if your car broke down? What if your house burned down? What if your watch got stolen?</p>
+            <input type="text" name="" placeholder="Enter Your Answer" id="">
+           </div>
+
+           <div class="box4 box">
+            <p>4.What kind of people do you meet? And how do you react to those encounters? Do you stay cool or do you swear the hell out of them? What’s your best response?</p>
+            <input type="text" name="" placeholder="Enter Your Answer" id="">
+           </div>
+
+           <div class="box5 box">
+               <p>5.How would it feel to not have a roof over your head?</p>
+               <input type="text" name="" placeholder="Enter Your Answer" id="">
+            </div>
+
+           <div class="box6 box">
+            <p>6.How would it feel to lose social status?</p>
+            <input type="text" name="" placeholder="Enter Your Answer" id="">
+           </div>
+
+           <div class="box7 box">
+            <p>7.How would it feel to have a physical disability?</p>
+            <input type="text" name="" placeholder="Enter Your Answer" id="">
+           </div>
+
+           <div class="box8 box">
+            <p>8.How would it feel to lose a loved one?</p>
+            <input type="text" name="" placeholder="Enter Your Answer" id="">
+           </div>
+
+           <div class="box9 box">
+            <p>9.Now write about the people, decisions, events, and things you are grateful for</p>
+            <input type="text" name="" placeholder="Enter Your Answer" id="">
+           </div>
+         
+       </div>
+       
+       <div class="btn" >
+        <button onclick="generatePDF()">
+            Download Your Answer
+        </button>
+       </div>
+
+  </body>
+</html>
