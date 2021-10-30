@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff2ea;
+    height: 100vh;
+}
+h2,p,h3,ul{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    border-radius: 30px;
+    border: 2px solid black;
+}
+hr{
+    width: 95%;
+    background-color: black;
+    height: 2px;
+}
+.healer {
+    font-family: "Cookie", cursive !important;
+    text-transform: capitalize !important;
+    letter-spacing: 1px;
+}
+/* Nevigation Bar */
+.navigation {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-size: 2rem;
+}
+.navigation ul {
+    display: flex;
+    font-family: "Bebas Neue", cursive;
+}
+.navigation ul li {
+    list-style: none;
+    padding: 4px;
+}
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Squat Jumps */
+.squat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.squat .text{
+    width: 75%;
+}
+.squat img{
+    height: 15%;
+    width: 15%;
+}
+
+/* Jump Ropes */
+.jumpRope{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.jumpRope .text{
+    width: 60%;
+}
+.jumpRope img{
+    height: 15%;
+    width: 15%;
+}
+
+/* Jogging in place */
+.jogging{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.jogging .text{
+    width: 60%;
+}
+.jogging img{
+    height: 15%;
+    width: 15%;
+}
+
+/* “Screamer” lunges */
+.screamer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.screamer .text{
+    width: 75%;
+}
+.screamer img{
+    height: 15%;
+    width: 15%;
+}
+
+/* Dancing on music */
+.dancing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.dancing .text{
+    width: 60%;
+}
+.dancing img{
+    height: 15%;
+    width: 15%;
+}
+
+/* Stair Climbs */
+.stairClimb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.stairClimb .text{
+    width: 60%;
+}
+.stairClimb img{
+    height: 15%;
+    width: 15%;
+    
+}
+/* Jumping jacks */
+.jumpingJacks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.jumpingJacks .text{
+    width: 75%;
+}
+.jumpingJacks img{
+    height: 15%;
+    width: 15%;
+}
+
+/* Lateral shuffles */
+.shuffles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.shuffles .text{
+    width: 75%;
+}
+.shuffles img{
+    height: 15%;
+    width: 15%;
+}
+
+/* Bear Crawl */
+.BearCrawl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.BearCrawl .text{
+    width: 75%;
+}
+.BearCrawl img{
+    height: 15%;
+    width: 15%;
+}

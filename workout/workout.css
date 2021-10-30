@@ -127,10 +127,9 @@ body {
 
 #card-1 img {
   border: 2px solid black;
-  height: 100%;
-  width: 80%;
+  height: 80%;
+  width: 85%;
   border-radius: 50%;
-  transform: rotate(90deg);
   background-color: white;
 }
 #card-1 {
