@@ -7,8 +7,7 @@ function generatePDF() {
             'width': 1400  //set width
         },
         function (a) {
-            alert("hii");
-            doc.save("HTML2PDF.pdf"); // save file name as HTML2PDF.pdf
+            doc.save("your_answers.pdf"); // save file name as HTML2PDF.pdf
         });
 }
 

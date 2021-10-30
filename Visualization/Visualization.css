@@ -9,26 +9,29 @@ body {
     font-family: "Cookie", cursive !important;
     text-transform: capitalize !important;
     letter-spacing: 1px;
-    font-size: 1.5rem;
-    margin-right: 1%;
   }
-
-.healer a
-{
-   text-decoration:none;
-}
-  
-  .navbar {
-    position: fixed;
+  .navigation {
     display: flex;
     align-items: center;
     height: 10%;
     width: 100%;
-    top: 0px;
-    font-family: "Bebas Neue", cursive;
     background-color: black;
     color: white;
-    z-index: 1;
+    margin: 0;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2rem;
+  }
+  .navigation ul {
+    display: flex;
+  }
+  .navigation ul li {
+    list-style: none;
+    padding: 4px;
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    color: white;
   }
   .meditation {
     font-size: 1.8rem;
